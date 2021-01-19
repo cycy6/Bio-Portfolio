@@ -23,6 +23,7 @@ body {
 
 header {
   background: #333;
+  position: absolute;
 }
 
 h1 {
