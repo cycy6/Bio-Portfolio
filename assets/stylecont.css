@@ -1,3 +1,4 @@
+/* Navbar */
 body {
   padding: 0;
   margin: 0;
@@ -15,6 +16,12 @@ header {
   position: absolute;
 }
 
+/* contact information */
+  .data-wrapper{
+    font-size: 18px;
+    background-color: #fff;
+  }
+/* Contact form */
   .contact-form {
       width: 85%;
       max-width: 500px;
@@ -69,6 +76,7 @@ header {
     width: 100%;
   }
 
+  /* Footer */
   .footer {
     position: fixed;
     left: 0;

@@ -1,12 +1,4 @@
-/**
- First External CSS Stylesheet
- **/
-
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
+/* About me information */
 
 body {
   padding: 0;
@@ -25,22 +17,8 @@ header {
   position: absolute;
 }
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: #1a0000;
-  text-align: center;
-}
-
 h2 {
   font-size: 24px;
-  color: #1a0000;
-}
-
-
-ul {
   color: #1a0000;
 }
 
@@ -51,7 +29,6 @@ ul {
 }
 
 #main-bio,
-#contact-info,
 #bio-image {
   float: left;
 }
@@ -62,13 +39,7 @@ ul {
 
 p{
   color:#1a0000;
-}
-/* contact info section */
-#contact-info {
-  width: 30%;
-  color: #1a0000;
-  display: block;
-
+  width: auto;
 }
 
 #bio-image {
@@ -77,11 +48,71 @@ p{
   margin-right: 20px;
 }
 
+/* navbar */
 #menu-item {
   color:#eee;
 }
 
-/*  */
+.navbar-nav{
+  font-family:'Century gothic', 'sans-serif';
+  font-size:14px;
+  width:100%;
+}
+
+/* Social Media */
+
+#contact-info {
+  display: block;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  float: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  offset-position: right;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* Instagram */
+.fa-instagram {
+  font-size: 3.6rem;
+    color: purple;
+    transition: color .5s, transform .5s;
+    color:#999;
+    transform: translateY(-3px);
+}
+
+/* Linkedin */
+.fa-linkedin {
+  font-size: 3.6rem;
+    color: blue;
+    transition: color .5s, transform .5s;
+    color:#999;
+    transform: translateY(-3px);
+}
+
+/* Github*/
+.fa-github {
+  font-size: 3.6rem;
+  color: black;
+  transition: color .5s, transform .5s;
+  color:#999;
+  transform: translateY(-3px);
+}
+/* footer */
 .footer {
   position: fixed;
   left: 0;
@@ -92,6 +123,6 @@ p{
   text-align: center;
 }
 
-p1 {
+.p1{
   color:#FFFF;
 }
