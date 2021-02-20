@@ -15,7 +15,6 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #eee;
-  background: url(backgroundimg.jpg) no-repeat;
   background-size: auto;
   background-size: cover;
   height: 100%;
@@ -31,16 +30,18 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 20px;
-  color: #eee;
+  color: #1a0000;
   text-align: center;
 }
 
 h2 {
   font-size: 24px;
-  color: #eee;
+  color: #1a0000;
 }
-p {
-  color:#eee
+
+
+ul {
+  color: #1a0000;
 }
 
 .container {
@@ -59,9 +60,15 @@ p {
   width: 70%;
 }
 
+p{
+  color:#1a0000;
+}
+/* contact info section */
 #contact-info {
   width: 30%;
-  color: #eee;
+  color: #1a0000;
+  display: block;
+
 }
 
 #bio-image {
@@ -74,6 +81,7 @@ p {
   color:#eee;
 }
 
+/*  */
 .footer {
   position: fixed;
   left: 0;
@@ -82,4 +90,8 @@ p {
   background-color: black;
   color: white;
   text-align: center;
+}
+
+p1 {
+  color:#FFFF;
 }
