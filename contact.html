@@ -50,30 +50,32 @@
                   </div>
               </div>
             </div>
-  <!-- Contact form -->
-  <div class ="contact-form">
-    <h1>Contact Me</h1>
-        <div class="textb">
-            <label>Full Name  :</label>
-            <input type="text" name="" value="" placeholder="Name">
-    </div>
-<!--Email entry info  -->
-    <div class="textb">
-        <label>Email  :</label>
-        <input type="text" name="" value="" placeholder="Email">
-    </div>
-    <!--Phone entry info  -->
-    <div class="textb">
-            <label>Phone Number  :</label>
-            <input type="text" name="" value="" placeholder="Phone Number">
-    </div>
-    <!-- Message entry info -->
-    <div class="textb">
-      <label>Message  :</label>
-      <textarea></textarea>
-    </div>
-    <a class="btn">Send</a>
-    </div>
+            <container class="container">
+              <div class="row justify-content-center" style="margin-top: 60px;">
+                <div id="contact-form main-section" class="col-7">
+                  <h1>Contact</h1>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="email" class="form-control" id="nameInput">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailInput">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="messageInput" rows="3"></textarea>
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-dark mb-3" onClick="submit(event)">Submit</button>
+                    <!-- <button type="submit" class="btn btn-dark mb-3" onClick="toggleMessages(event)">History</button> -->
+                  </div>
+                </div>
+              </div>
+            </container>
+            <container class="container">
+              <div id="history" class="row"></div>
+            </container>
 <!-- Footer -->
   <div class="footer">
     <p>Copyright: Cyril Gayola</p>
